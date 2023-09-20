@@ -1,5 +1,5 @@
 # Welcome to my website
-After years of web dev side projects for businesses, individual clients, friends and family, this was a long time coming. I am excited to have a platform where I can showcase my passions, skills, and creativity.
+After years of web dev side projects for businesses, individual clients, friends and family, I am excited to have my own platform where I can showcase my passions, skills, and creativity.
 
 
 ### React + Vite template
@@ -12,7 +12,7 @@ Currently, two official plugins are available:
 
 ### Bug Log
 <ins>ONGOING</ins>
-Tailwindcss styling not being applied.
 
 <ins>FIXED</ins>
-Components imports are not recognized. *Updated components folder location and used "./components" within the import*
+- Components imports are not recognized. *Updated components folder location and used "./components" within the import*
+- Tailwindcss styling not being applied. *Basic Vite issue; Reinstalled tailwindcss with postcss config and autoprefixer included*
