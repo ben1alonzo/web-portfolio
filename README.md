@@ -12,6 +12,8 @@ Currently, two official plugins are available:
 
 ### Bug Log
 <ins>ONGOING</ins>
+- Minor runtime issues with 3D object rendering
+- Lighting needs work; spotLight not affecting the object at all and dimensionality of the card is not always apparent.
 
 <ins>FIXED</ins>
 - Components imports are not recognized. *Updated components folder location and used "./components" within the import*
