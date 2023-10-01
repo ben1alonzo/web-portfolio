@@ -14,7 +14,7 @@ const Computers = () => {
       <pointLight intensity={10} position={[-5, -1.2, 0]}/>
       <primitive object={computer.scene}
       scale={4}
-      position={[0, -2.25, 0]}
+      position={[0, -1, 0]}
       rotation={[0.0, -3.15, 0.0]}
       /> 
     </mesh>
@@ -26,7 +26,7 @@ const ComputersCanvas = () => {
     <Canvas
       frameLoop="demand"
       shadows
-      camera={{position: [20, 3, 5], fov: 25}}
+      camera={{position: [10, 20, 5], fov: 30}}
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
@@ -40,8 +40,6 @@ const ComputersCanvas = () => {
       <Preload all />
     </Canvas>
   )
-
-
 }
 
 export default ComputersCanvas
