@@ -16,5 +16,6 @@ Currently, two official plugins are available:
 - Lighting needs work; spotLight not affecting the object at all and dimensionality of the card is not always apparent.
 
 <ins>FIXED</ins>
+- Responsive resizing not applying. *Discovered quotations in the wrong place, added responsive repositioning as well as resizing*
 - Components imports are not recognized. *Updated components folder location and used "./components" within the import*
 - Tailwindcss styling not being applied. *Basic Vite issue; Reinstalled tailwindcss with postcss config and autoprefixer included*
